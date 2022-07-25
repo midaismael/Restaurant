@@ -5,6 +5,11 @@
     height: auto;
     text-align: center;
     overflow: hidden;
+    margin-top: 0px;
+}
+
+.numbers row{
+    margin: 10px 0px;
 }
 
 .numbers h2 {
@@ -17,4 +22,65 @@
 .numbers h6{
     text-transform: uppercase;
     color: #fff;
+    font-family: 'Tajwal';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*css to the pride section*/
+.pride {
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pride h2{
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #a82d49;
+    font-family: 'Tajwal';
+    line-height: 50px;
+}
+
+.pride p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.pride button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    text-align: center ;
+    margin-top: 20px;
+    transition: .2s ease;
+}
+
+.pride button a{
+    display: block;
+    color: #fff;     
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.pride button:hover a{
+    color: #a82d49;
+    transition: .2s ease;
+}
+
+.pride button:hover{
+    background-color: #fff;
 }

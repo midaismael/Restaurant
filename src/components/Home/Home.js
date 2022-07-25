@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
-import "./Home.css"
+import "./Home.css";
+import prideimg from './../../assets/1.png'
+
 
 const Home = () => {
     return (
@@ -29,6 +31,22 @@ const Home = () => {
 
                 </div>
 
+            </section>
+            <section className='pride'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <img src={prideimg} title='prideimg' alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2>
+                            We pride ourselves on making real food from the best ingredients.
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+                            <button><a href="#A">learn more</a></button>
+                        </div>
+                    </div>
+                </div>
             </section>
         </Fragment>
         
