@@ -28,7 +28,8 @@
 }
 
 /*css to the pride section*/
-.pride {
+.pride,
+ .ingredients {
     background-color: transparent;
     padding: 25px 0px;
     max-width: 100%;
@@ -37,12 +38,14 @@
     margin-top: 60px;
 }
 
-.pride img{
+.pride img ,
+.ingredients img{
     max-width: 100%;
     border-radius: 10px;
 }
-
-.pride h2{
+.pride h2 ,
+.ingredients h2 ,
+.paralex h2{
     font-size: 35px;
     font-weight: bold;
     width: 80%;
@@ -51,36 +54,153 @@
     font-family: 'Tajwal';
     line-height: 50px;
 }
-
-.pride p{
+.pride p ,
+.ingredients p ,
+.paralex p{
     font-size: 16px;
     line-height: 28px;
     color: #333;
     margin-top: 15px;
 }
-
-.pride button{
+.pride button , 
+.ingredients button{
     background-color: #a82d49;
     border: 1px solid #a82d49;
     box-sizing: border-box;
     width: 140px;
     text-align: center ;
     margin-top: 20px;
-    transition: .2s ease;
-}
+    transition: .4s ease;
+    padding: 11px;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
 
-.pride button a{
+}
+.pride button a ,
+.ingredients button a{
     display: block;
     color: #fff;     
     text-decoration: none !important;
     font-weight: bold;
 }
-
-.pride button:hover a{
+.pride button:hover a ,
+.ingredients button:hover a{
     color: #a82d49;
-    transition: .2s ease;
+    transition: .10s ease;
+}
+.pride button:hover ,
+.ingredients button:hover{
+    background-color: #fff; 
+}
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li{
+    list-style-type: square;
+    color: #333;
+    margin-top: 10px;
 }
 
-.pride button:hover{
-    background-color: #fff;
+.paralex{
+    background: url('./../../assets/4.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 30px 0px;
+    text-align: center;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0px;
+}
+.paralex .row{
+    margin: 50px 0px;
+}
+.paralex p{
+    color: #444;
+    margin: 20px 0px;
+    line-height: 32px;
+
+}
+.paralex a{
+    color: #a82d49;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-decoration: none !important;
+}
+
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 50px;
+}
+.blogs h2{
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: #a82d49;
+    font-family: 'Tajwal';
+    line-height: 50px;
+}
+.blogs .box img{
+    max-width: 100%;
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f6f6f6;
+    border-radius: 5px;
+    text-align: left;
+}
+.blogs h5{
+    color: #77132b;
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.blogs .box span{
+    color: #444;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.blogs .box h6{
+    color: #a82d49;
+    font-size: 25px;
+}
+.blogs button{
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-color: #77132b;
+    border: 1px solid #77132b;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .4s ease-in-out;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+}
+.blogs button a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+.blogs button:hover{
+    background-color: transparent;
+}
+.blogs button:hover a{
+    color: #77132b;
+}
+.blogs .box del{
+    color: #444;
 }

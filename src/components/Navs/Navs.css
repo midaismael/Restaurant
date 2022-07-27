@@ -4,6 +4,8 @@ nav{
     height: auto;
     max-width: 100%;
     border-radius: 0px;
+    font-weight: bold;
+    position: fixed !important;
 }
 nav a{
     color: #ab3550 !important;
