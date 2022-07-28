@@ -1,0 +1,17 @@
+footer{
+    background-color: #a82d49;
+    overflow: hidden;
+    padding: 20px;
+}
+footer a{
+    color: #fff;
+    padding: 0 50px 0 0;
+} 
+footer a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-copy{
+    padding-top: 30px;
+    color: #fff;
+}

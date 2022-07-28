@@ -1,9 +1,12 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
 import "./Home.css";
-import prideimg from './../../assets/1.png'
-import foodimg from './../../assets/2.png'
-import Data from '../../Data'
+import prideimg from './../../assets/1.png';
+import foodimg from './../../assets/2.png';
+import Data from '../../Data';
+import Carousel from 'react-bootstrap/Carousel';
+import item1 from './../../assets/man.jpg'
+import item2 from './../../assets/girl.jpg'
 
 const Home = () => {
     
@@ -102,6 +105,111 @@ const Home = () => {
                         </div>
                         <div className='row'>
                             {blogitem}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="sliderx">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12">
+                            <h2>Testimonials</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12">
+                                    <Carousel>
+                            <Carousel.Item>
+                                <img
+                                src={item1}
+                                alt="First slide"
+                                />
+                                <Carousel.Caption>
+                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live far from the countries Vokalia."</p>
+                                <span>Ahmed Ismael</span>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                src={item2}
+                                alt="Second slide"
+                                />
+
+                                <Carousel.Caption>
+                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live far from the countries Vokalia."</p>
+                                <span>Farida Ismael</span>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                src={item1}
+                                alt="Third slide"
+                                />
+                                <Carousel.Caption>
+                                <p>
+                                "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live far from the countries Vokalia."
+                                </p>
+                                <span>Ali Ismael</span>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            </Carousel>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="questions">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12">
+                            <h1>Frequently Asked Questions</h1>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <h5>~ Is Foodera Bread really baked fresh each day?</h5>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <h5>~ Do you bake breads containing animal fats or products?</h5>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <h5>~ Can I order your products online?</h5>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <h5>~ When are you opening a shop near me?</h5>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="bakers">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-md-6">
+                            <h3>Baked fresh daily by bakers with passion.</h3>
+                        </div>
+                        <div className="col-lg-6 col-md-6">
+                            <button><a href="#">Learn More</a></button>
+                        </div>                                   
+                    </div>
+                </div>
+            </section>
+            <section className="subscribe">
+                <div className="contanier">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12">
+                            <h1>Hurry up! Subscribe our newsletter <br/> and get 25% Off</h1>
+                            <p>Limited time offer for this month. No credit card required.</p>
+                    <div className="row">
+                        <div className="col-lg-8 col-md-8">
+                            <input placeholder="Email Address here"></input>
+                        </div>
+                        <div className="col-lg-4 col-md-4">
+                            <button><a href="#">subscribe</a></button>
+                    </div>
+                        </div>    
                         </div>
                     </div>
                 </div>

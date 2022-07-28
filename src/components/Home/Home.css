@@ -204,3 +204,165 @@
 .blogs .box del{
     color: #444;
 }
+
+.sliderx{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.sliderx img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 150px;
+}
+.sliderx .carousel-caption{
+    padding-bottom: 0px;
+}
+.sliderx .carousel-caption p{
+    color: #212121;
+    font-size: 17px;
+    line-height: 30px;    
+}
+.sliderx .carousel-caption span{
+    display: block;
+    color: #a82d49;
+    margin: 15px 0px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sliderx .carousel{
+    background-color: #fff; 
+    margin: 40px 0px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+.sliderx .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.sliderx .carousel-indicators button{
+    width: 15px;
+    background-color: #fff;
+    height: 15px;
+    border: 1px solid #77132b;
+    margin: 15px 5px 15px 5px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+.sliderx .carousel-indicators .active{
+    background-color: #fff;
+    opacity: 1;
+}
+.sliderx h2{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.questions{
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+.questions h1{
+    color: #77132b;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+.questions h5{
+    color: #77132b;
+}
+.questions p{
+    color: #555;
+}
+.bakers{
+    background: url('./../../assets/cake.jpg') no-repeat center fixed ;
+    background-size: cover;
+    height: 150px;
+    padding: 50px 0px;
+    text-align: center;
+}
+.bakers h3{
+    color:#77132b;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.2px;
+}
+.bakers button{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    transition: .4s ease;
+    
+}
+.bakers button a{
+    display: block;
+    color: #fff;     
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.bakers button:hover {
+    background-color: transparent;
+}
+.bakers button:hover a{
+    color: #a82d49;
+}
+
+.subscribe{
+    text-align: center;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.subscribe h1{
+    color: #77132b;
+}
+.subscribe p{
+    color: #555;
+    letter-spacing: 0.2px;
+    padding: 25px 0 15px;  
+}
+.subscribe input{
+    border: 3px solid #e5e5e5;
+    width: 500px;
+    height: 50px;
+    padding: 0 20px;
+    margin-left: 300px;
+}
+.subscribe button{
+    width: 180px;
+    height: 50px;
+    text-decoration: none !important;
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    transition: .4s ease-in-out;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    margin-right: 300px;
+}
+.subscribe a{
+    text-decoration: none !important;
+    color: #fff;
+}
+.subscribe button:hover {
+    background-color: transparent;
+}
+.subscribe button:hover a{
+    color: #77132b;
+}
