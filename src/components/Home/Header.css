@@ -41,10 +41,10 @@ header button{
 }
 header button:last-of-type{
     background-color: #fff;
-    color: #000;
+    color: #ac2947;
 }
 header button:hover{
-    transition: .2s ease-in-out;
+    transition: .4s ease-in-out;
 }
 header button:first-of-type:hover{
     background-color: #fff;

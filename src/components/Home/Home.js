@@ -202,14 +202,10 @@ const Home = () => {
                         <div className="col-lg-12 col-md-12">
                             <h1>Hurry up! Subscribe our newsletter <br/> and get 25% Off</h1>
                             <p>Limited time offer for this month. No credit card required.</p>
-                    <div className="row">
-                        <div className="col-lg-8 col-md-8">
-                            <input placeholder="Email Address here"></input>
-                        </div>
-                        <div className="col-lg-4 col-md-4">
-                            <button><a href="#">subscribe</a></button>
-                    </div>
-                        </div>    
+                            <form>
+                                <input placeholder="Email Address here"></input>
+                                <button><a href="#">subscribe</a></button>
+                            </form>
                         </div>
                     </div>
                 </div>
